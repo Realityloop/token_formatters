@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains token_formatters.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function token_formatters_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the token_formatters module.
+    case 'help.page.token_formatters':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides additional formatters for various field types') . '</p>';
+      return $output;
+
+    default:
+  }
+}

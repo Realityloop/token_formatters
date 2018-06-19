@@ -1,0 +1,14 @@
+{
+  "name": "drupal/token_formatters",
+  "type": "drupal-module",
+  "description": "Provides additional formatters for various field types",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/token_formatters",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/token_formatters",
+    "source": "http://cgit.drupalcode.org/token_formatters"
+  },
+  "require": { }
+}
